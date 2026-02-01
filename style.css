@@ -221,3 +221,17 @@ footer {
     background: #efd46f;
 }
 
+@media (max-width: 768px) {
+    .project .btn {
+        background: #f1f5f9;
+        border: 1px solid #cbd5e1;
+        padding: 8px 14px;
+        border-radius: 8px;
+    }
+
+    .project .btn-powerbi {
+        background: #f5dc84;
+        border-color: #e6c75f;
+        color: #5c4a00;
+    }
+}
