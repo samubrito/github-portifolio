@@ -155,3 +155,69 @@ footer {
     width: 28px;
     height: 28px;
 }
+
+/*Botão git projetos*/
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 15px;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    background: #f1f5f9;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #e2e8f0;
+    transform: translateY(-2px);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+.project .btn {
+    margin-top: auto;
+    align-self: center;
+}
+
+.project p{
+    margin-bottom: 18px;;
+}
+
+/*Projeto botão power bi*/
+.project-buttons {
+    margin-top: auto;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.btn-secondary {
+    background: #e2e8f0;
+    font-size: 12px;
+}
+
+.btn-secondary:hover {
+    background: #cbd5e1;
+}
+.btn-icon {
+    width: 5px;
+    height: 5px;
+}
+.btn-powerbi {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f5dc84;
+    color: #5c4a00;
+}
+.btn-powerbi:hover {
+    background: #efd46f;
+}
+
