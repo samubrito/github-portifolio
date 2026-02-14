@@ -237,3 +237,24 @@ footer {
         color: #5c4a00;
     }
 }
+
+/* Texto de ferramentas em projetos*/
+.ferramentas {
+  color: #334155;
+  font-style: italic;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  letter-spacing: 0.5px;
+}
+
+/* lista de skills*/
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li::before {
+  content: "✔ ";
+color: #22c55e;
+  font-weight: bold;
+}
