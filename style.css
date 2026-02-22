@@ -258,3 +258,19 @@ footer {
 color: #22c55e;
   font-weight: bold;
 }
+
+/* Texto dos cards - Projetos */
+.card-texto {
+    font-family: 'Inter', sans-serif; /* Define a fonte clean */
+    font-size: 14px;
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+    color: #4A4A4A; /* Cinza escuro para o texto principal (menos agressivo que o preto) */
+    text-align: justify;
+}
+
+/* Estilização específica para as frases em negrito */
+.card-texto strong {
+    font-weight: 600; /* Peso médio-negrito para não ficar pesado demais */
+    color: #718096; /* Cinza médio/claro para o efeito que você pediu */
+    margin-top: 10px;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -14,7 +15,7 @@
     <header>
         <div class="container">
             <h1>Samuel Brito</h1>
-            <p>Engenharia de Controle e Automação | Dados | IA | Automação</p>
+            <p>Engenharia de Controle e Automação | Dados & BI | Machine Learning | Automação</p>
             <nav>
                 <a href="#sobre">Sobre</a>
                 <a href="#skills">Skills</a>
@@ -114,26 +115,43 @@
             <div class="grid-3">
                 
                 <div class="card project">
-                    <h3>Automação de Consolidação: Relatório Operacional Logístico</h3>
-                    <p class="ferramentas">Python | Pandas | ETL | Automação</p>
-                     <img src="imagens_projetos/automacao_relatorios.png" alt="">
-                    <p>Este projeto consiste em um pipeline de ETL (Extração, Transformação e Carga) 
-                        desenvolvido em Python para consolidar múltiplos relatórios de operação logística.
-                    </p>
+                    <h3>IBGE Unemployment Pipeline: ETL & Predictive Modeling</h3>
+                    <p class="ferramentas">ETL | Machine Learning | Github Actions | Power BI | Requests</p>
+                    <img src="imagens_projetos/pipeline_ibge.png" alt="">
+                    <p class="card-texto">
+                        Esta solução <strong>automatiza a coleta de dados</strong> públicos de desemprego e supre a ausência de modelos para antecipação de tendências de mercado. 
+                        A arquitetura consiste em um <strong>pipeline ponta a ponta</strong> que consome a API do IBGE via Python, aplica engenharia de atributos e treina um <strong>modelo de Regressão Linear.</strong> 
+                        Com orquestração via <strong>GitHub Actions (CI/CD)</strong>, o sistema entrega monitoramento preditivo semanal e <strong>métricas de erro (MAE)</strong> em um dashboard dinâmico, <strong>garantindo total 
+                        autonomia e precisão</strong> na análise de dados econômicos.</p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/samubrito/pipeline_ibge"
+                            class="btn"
+                            target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            Projeto
+                        </a>
 
-                    <a href="https://github.com/samubrito/Automa-o_de_relat-rios_operacionais"
-                        class="btn"
-                        target="_blank">
-                        <i class="fa-brands fa-github"></i> Ver projeto
-                    </a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiN2Y1NzJkZWItNTgyNy00NjJkLWIyZjMtOThlZTBkZjk0ODVhIiwidCI6ImE4NWNjYzY2LTZjN2EtNDVkZi04NjY1LTg5ZWJhNWRmOWRmNSJ9"
+                            class="btn btn-secondary btn-powerbi"
+                            target="_blank">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            Power BI
+                        </a>
 
+                        
+
+                    </div>
                 </div>
 
+
                 <div class="card project">
-                    <h3>Dashboard Supply Chain</h3>
+                    <h3>Supply Chain Analytics</h3>
                     <p class="ferramentas">Power BI | Linguagem M | Linguagem Dax | KPIs | Storytelling</p>
                     <img src="imagens_projetos/dashboard_supply_chain.png" alt="">
-                    <p>Dashboard de indicadores operacionais e financeiros corporativos.</p>
+                    <p class="card-texto">O projeto resolve a <strong>fragmentação de dados logísticos e financeiros dispersos em múltiplas fontes</strong>, que dificultavam a análise ágil de performance. 
+                        Foi implementado um <strong>pipeline de ETL escalável em Linguagem M</strong> com funções personalizadas para limpeza dinâmica de dados, alimentando dashboards estratégicos no Power BI. 
+                        O resultado é a <strong>centralização de KPIs como Lead Time, lucratividade e riscos de fraude</strong>, permitindo a identificação imediata de gargalos operacionais e 
+                        suporte à <strong>decisão estratégica em tempo real.</strong></p>
 
                     <div class="project-buttons">
                         <a href="https://github.com/seuusuario/dashboard-powerbi"
@@ -154,29 +172,24 @@
                 </div>
 
                 <div class="card project">
-                    <h3>IBGE Unemployment Pipeline: ETL & Predictive Modeling</h3>
-                    <p class="ferramentas">ETL | Machine Learning | Github Actions | Power BI | Requests</p>
-                    <img src="imagens_projetos/pipeline_ibge.png" alt="">
-                    <p>Sistema de controle com microcontrolador e PID discretizado.</p>
-                    <div class="project-buttons">
-                        <a href="https://github.com/samubrito/pipeline_ibge"
-                            class="btn"
-                            target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                            Projeto
-                        </a>
+                    <h3>Automação de Consolidação: Relatório Operacional Logístico</h3>
+                    <p class="ferramentas">Python | Pandas | ETL | Automação</p>
+                     <img src="imagens_projetos/automacao_relatorios.png" alt="">
+                    <p class="card-texto">Este projeto <strong>aborda a inconsistência e fragmentação de dados</strong> provenientes de 25 arquivos Excel com mais de 100 abas de filiais mal estruturadas. 
+                        Através de um algoritmo desenvolvido em <strong>Python (Pandas)</strong>, o sistema realiza a varredura automatizada de diretórios, transposição de matrizes complexas e 
+                        normalização de campos de custo e tempo de sistemas legados. A solução <strong>otimizou o processamento de várias horas</strong> de esforço manual para apenas alguns segundos, 
+                        <strong>eliminando riscos de erro humano</strong> e garantindo a <strong>escalabilidade necessária para altas volumetrias de dados</strong>.
+                    </p>
 
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiN2Y1NzJkZWItNTgyNy00NjJkLWIyZjMtOThlZTBkZjk0ODVhIiwidCI6ImE4NWNjYzY2LTZjN2EtNDVkZi04NjY1LTg5ZWJhNWRmOWRmNSJ9"
-                            class="btn btn-secondary btn-powerbi"
-                            target="_blank">
-                            <i class="fa-solid fa-chart-pie"></i>
-                            Power BI
-                        </a>
+                    <a href="https://github.com/samubrito/Automa-o_de_relat-rios_operacionais"
+                        class="btn"
+                        target="_blank">
+                        <i class="fa-brands fa-github"></i> Ver projeto
+                    </a>
 
-                        
-
-                    </div>
                 </div>
+
+                
                 
                 <!-- <div class="card project">
                     <h3>Machine Learning em C/C++</h3>
